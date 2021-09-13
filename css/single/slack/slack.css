@@ -25,110 +25,111 @@ a {
   transition: transform 1s, -webkit-transform 1s;
 }
 
-.button.is-apple {
-  background-color: #611f69;
+
+.button.is-slack {
+  background-color: #63206a;
   border-color: transparent;
   color: #fff;
 }
 
-.button.is-apple:hover, .button.is-apple.is-hovered {
-  background-color: #611f69;
+.button.is-slack:hover, .button.is-slack.is-hovered {
+  background-color: #591d60;
   border-color: transparent;
   color: #fff;
 }
 
-.button.is-apple:focus, .button.is-apple.is-focused {
+.button.is-slack:focus, .button.is-slack.is-focused {
   border-color: transparent;
   color: #fff;
 }
 
-.button.is-apple:focus:not(:active), .button.is-apple.is-focused:not(:active) {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(97, 31, 105, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(97, 31, 105, 0.25);
+.button.is-slack:focus:not(:active), .button.is-slack.is-focused:not(:active) {
+  -webkit-box-shadow: 0 0 0 0.125em rgba(99, 32, 106, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(99, 32, 106, 0.25);
 }
 
-.button.is-apple:active, .button.is-apple.is-active {
-  background-color: #611f69;
+.button.is-slack:active, .button.is-slack.is-active {
+  background-color: #501a56;
   border-color: transparent;
   color: #fff;
 }
 
-.button.is-apple[disabled],
-fieldset[disabled] .button.is-apple {
-  background-color: #611f69;
+.button.is-slack[disabled],
+fieldset[disabled] .button.is-slack {
+  background-color: #63206a;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.button.is-apple.is-inverted {
+.button.is-slack.is-inverted {
   background-color: #fff;
-  color: #611f69;
+  color: #63206a;
 }
 
-.button.is-apple.is-inverted:hover, .button.is-apple.is-inverted.is-hovered {
+.button.is-slack.is-inverted:hover, .button.is-slack.is-inverted.is-hovered {
   background-color: #f2f2f2;
 }
 
-.button.is-apple.is-inverted[disabled],
-fieldset[disabled] .button.is-apple.is-inverted {
+.button.is-slack.is-inverted[disabled],
+fieldset[disabled] .button.is-slack.is-inverted {
   background-color: #fff;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #611f69;
+  color: #63206a;
 }
 
-.button.is-apple.is-loading::after {
+.button.is-slack.is-loading::after {
   border-color: transparent transparent #fff #fff !important;
 }
 
-.button.is-apple.is-outlined {
+.button.is-slack.is-outlined {
   background-color: transparent;
-  border-color: #611f69;
-  color: #611f69;
+  border-color: #63206a;
+  color: #63206a;
 }
 
-.button.is-apple.is-outlined:hover, .button.is-apple.is-outlined.is-hovered, .button.is-apple.is-outlined:focus, .button.is-apple.is-outlined.is-focused {
-  background-color: #611f69;
-  border-color: #611f69;
+.button.is-slack.is-outlined:hover, .button.is-slack.is-outlined.is-hovered, .button.is-slack.is-outlined:focus, .button.is-slack.is-outlined.is-focused {
+  background-color: #63206a;
+  border-color: #63206a;
   color: #fff;
 }
 
-.button.is-apple.is-outlined.is-loading::after {
-  border-color: transparent transparent #611f69 #611f69 !important;
+.button.is-slack.is-outlined.is-loading::after {
+  border-color: transparent transparent #63206a #63206a !important;
 }
 
-.button.is-apple.is-outlined.is-loading:hover::after, .button.is-apple.is-outlined.is-loading.is-hovered::after, .button.is-apple.is-outlined.is-loading:focus::after, .button.is-apple.is-outlined.is-loading.is-focused::after {
+.button.is-slack.is-outlined.is-loading:hover::after, .button.is-slack.is-outlined.is-loading.is-hovered::after, .button.is-slack.is-outlined.is-loading:focus::after, .button.is-slack.is-outlined.is-loading.is-focused::after {
   border-color: transparent transparent #fff #fff !important;
 }
 
-.button.is-apple.is-outlined[disabled],
-fieldset[disabled] .button.is-apple.is-outlined {
+.button.is-slack.is-outlined[disabled],
+fieldset[disabled] .button.is-slack.is-outlined {
   background-color: transparent;
-  border-color: #611f69;
+  border-color: #63206a;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #611f69;
+  color: #63206a;
 }
 
-.button.is-apple.is-inverted.is-outlined {
+.button.is-slack.is-inverted.is-outlined {
   background-color: transparent;
   border-color: #fff;
   color: #fff;
 }
 
-.button.is-apple.is-inverted.is-outlined:hover, .button.is-apple.is-inverted.is-outlined.is-hovered, .button.is-apple.is-inverted.is-outlined:focus, .button.is-apple.is-inverted.is-outlined.is-focused {
+.button.is-slack.is-inverted.is-outlined:hover, .button.is-slack.is-inverted.is-outlined.is-hovered, .button.is-slack.is-inverted.is-outlined:focus, .button.is-slack.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: #611f69;
+  color: #63206a;
 }
 
-.button.is-apple.is-inverted.is-outlined.is-loading:hover::after, .button.is-apple.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-apple.is-inverted.is-outlined.is-loading:focus::after, .button.is-apple.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #611f69 #611f69 !important;
+.button.is-slack.is-inverted.is-outlined.is-loading:hover::after, .button.is-slack.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-slack.is-inverted.is-outlined.is-loading:focus::after, .button.is-slack.is-inverted.is-outlined.is-loading.is-focused::after {
+  border-color: transparent transparent #63206a #63206a !important;
 }
 
-.button.is-apple.is-inverted.is-outlined[disabled],
-fieldset[disabled] .button.is-apple.is-inverted.is-outlined {
+.button.is-slack.is-inverted.is-outlined[disabled],
+fieldset[disabled] .button.is-slack.is-inverted.is-outlined {
   background-color: transparent;
   border-color: #fff;
   -webkit-box-shadow: none;
@@ -136,65 +137,57 @@ fieldset[disabled] .button.is-apple.is-inverted.is-outlined {
   color: #fff;
 }
 
-.button.is-apple.is-light {
-  background-color: whitesmoke;
-  color: #919191;
+.button.is-slack.is-light {
+  background-color: #f9effa;
+  color: #bb46c8;
 }
 
-.button.is-apple.is-light:hover, .button.is-apple.is-light.is-hovered {
-  background-color: #eeeeee;
+.button.is-slack.is-light:hover, .button.is-slack.is-light.is-hovered {
+  background-color: #f6e5f7;
   border-color: transparent;
-  color: #919191;
+  color: #bb46c8;
 }
 
-.button.is-apple.is-light:active, .button.is-apple.is-light.is-active {
-  background-color: #e8e8e8;
+.button.is-slack.is-light:active, .button.is-slack.is-light.is-active {
+  background-color: #f2dcf4;
   border-color: transparent;
-  color: #919191;
+  color: #bb46c8;
 }
 
-.button.is-static {
-  background-color: whitesmoke;
-  border-color: #dbdbdb;
-  color: #7a7a7a;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  pointer-events: none;
+.has-text-slack {
+  color: #63206a !important;
 }
 
-.has-text-apple {
-  color: #611f69 !important;
+a.has-text-slack:hover, a.has-text-slack:focus {
+  color: #3e1443 !important;
 }
 
-a.has-text-apple:hover, a.has-text-apple:focus {
-  color: #611f69 !important;
+.has-background-slack {
+  background-color: #63206a !important;
 }
 
-.has-background-apple {
-  background-color: #611f69 !important;
+.has-text-slack-light {
+  color: #f9effa !important;
 }
 
-.has-text-apple-light {
-  color: whitesmoke !important;
+a.has-text-slack-light:hover, a.has-text-slack-light:focus {
+  color: #ebc8ef !important;
 }
 
-a.has-text-apple-light:hover, a.has-text-apple-light:focus {
-  color: #dbdbdb !important;
+.has-background-slack-light {
+  background-color: #f9effa !important;
 }
 
-.has-background-apple-light {
-  background-color: whitesmoke !important;
+.has-text-slack-dark {
+  color: #bb46c8 !important;
 }
 
-.has-text-apple-dark {
-  color: #919191 !important;
+a.has-text-slack-dark:hover, a.has-text-slack-dark:focus {
+  color: #c96ed4 !important;
 }
 
-a.has-text-apple-dark:hover, a.has-text-apple-dark:focus {
-  color: #ababab !important;
+.has-background-slack-dark {
+  background-color: #bb46c8 !important;
 }
 
-.has-background-apple-dark {
-  background-color: #919191 !important;
-}
 /*# sourceMappingURL=all.css.map */
