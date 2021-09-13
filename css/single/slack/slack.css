@@ -12,6 +12,7 @@
 }
 
 .no-animation {
+  -webkit-transition-property: none !important;
   -o-transition-property: none !important;
   transition-property: none !important;
 }
